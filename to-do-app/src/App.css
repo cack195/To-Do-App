@@ -1,1 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.navbar {
+  background: linear-gradient(#ccdde6, #e2ff52a1);
+  overflow: hidden;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.navbar > h1 {
+  font-family: "Lobster", cursive;
+  font-size: 45px;
+  background: linear-gradient(#efefef, #373837a1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.01px #0b0b0b;
+}
