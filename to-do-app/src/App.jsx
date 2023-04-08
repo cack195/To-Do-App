@@ -10,6 +10,7 @@ function App() {
       <h1>
         Listify
       </h1>
+      <button className='btn'>Sign Out</button>
     </nav>
     </>
   )
